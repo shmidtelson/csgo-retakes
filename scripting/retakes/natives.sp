@@ -1,4 +1,4 @@
-#define MESSAGE_PREFIX "[\x05Retakes\x01]"
+#define MESSAGE_PREFIX " \x03[eazypro.ru]\x01"
 
 #define CHECK_CONNECTED(%1) if (!IsClientConnected(%1)) ThrowNativeError(SP_ERROR_PARAM, "Client %d is not connected", %1)
 
